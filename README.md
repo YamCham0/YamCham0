@@ -2,6 +2,7 @@
 
 <!--
 **YamCham0/YamCham0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![link](https://user-images.githubusercontent.com/86420212/146828531-05a3aa06-8bb6-4f0b-8498-a0bc8157c9a4.png)
 
 Here are some ideas to get you started:
 
