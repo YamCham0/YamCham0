@@ -12,7 +12,7 @@ I'm a Unity Junior Programmer passionate about building immersive experiences an
 - 💼 I’m open to work and collaborative projects that challenge me and broaden my skill set.
 
 ## Let's Connect! 🌐
-- LinkedIn: [Yamil Chamo]([link-to-your-linkedin](https://www.linkedin.com/in/yamcham0/))
+- LinkedIn: [Yamil Chamo](https://www.linkedin.com/in/yamcham0/)
 - Twitter: [@YourTwitterHandle](link-to-your-twitter)
 - Email: [your.email@example.com](mailto:your.email@example.com)
 
