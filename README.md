@@ -5,7 +5,7 @@ I'm a Unity Junior Programmer passionate about building immersive experiences an
 ## About Me 🎮
 - 🎓 Earned a Full-Stack Developer certification, demonstrating comprehensive mastery in both front-end and back-end technologies.
 - 🌱 I’m currently learning more about AR/VR development.
-- 👾 I have a particular interest in hypercasual mobile games and interactive storytelling.
+- 👾 I have a particular interest in inmersive 3D games and interactive storytelling.
 - 🛠️ I’m proficient in C#, Unity, and familiar with version control using Git.
 - 💼 I’m open to work and collaborative projects that challenge me and broaden my skill set.
 
