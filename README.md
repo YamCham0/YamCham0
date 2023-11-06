@@ -1,5 +1,3 @@
-![Banner Image with Unity Logo](link-to-your-banner-image)
-
 # Hello World, I'm Yamil Chamo! 👋
 
 I'm a Unity Junior Programmer passionate about building immersive experiences and exploring the vast possibilities within game development. I’m currently honing my skills in C# and the Unity Engine, and I’m always ready to collaborate on innovative projects.
@@ -16,4 +14,3 @@ I'm a Unity Junior Programmer passionate about building immersive experiences an
 - Twitter: [YamCham0](https://twitter.com/YamCham0)
 
 Thank you for stopping by my profile. Let's create something amazing together!
-
