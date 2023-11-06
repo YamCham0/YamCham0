@@ -1,17 +1,20 @@
-### Hi there 👋 More coming soon!
+![Banner Image with Unity Logo](link-to-your-banner-image)
 
-<!--
-**YamCham0/YamCham0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hello World, I'm Yamil Chamo! 👋
 
-<code><img height="20" src="https://user-images.githubusercontent.com/86420212/146828531-05a3aa06-8bb6-4f0b-8498-a0bc8157c9a4.png"></code>
-Here are some ideas to get you started:
+I'm a Unity Junior Programmer passionate about building immersive experiences and exploring the vast possibilities within game development. I’m currently honing my skills in C# and the Unity Engine, and I’m always ready to collaborate on innovative projects.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me 🎮
+- 🎓 Earned a Full-Stack Developer certification, demonstrating comprehensive mastery in both front-end and back-end technologies.
+- 🌱 I’m currently learning more about AR/VR development.
+- 👾 I have a particular interest in hypercasual mobile games and interactive storytelling.
+- 🛠️ I’m proficient in C#, Unity, and familiar with version control using Git.
+- 💼 I’m open to work and collaborative projects that challenge me and broaden my skill set.
+
+## Let's Connect! 🌐
+- LinkedIn: [Yamil Chamo]([link-to-your-linkedin](https://www.linkedin.com/in/yamcham0/))
+- Twitter: [@YourTwitterHandle](link-to-your-twitter)
+- Email: [your.email@example.com](mailto:your.email@example.com)
+
+Thank you for stopping by my profile. Let's create something amazing together!
+
