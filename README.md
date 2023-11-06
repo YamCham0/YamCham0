@@ -13,8 +13,7 @@ I'm a Unity Junior Programmer passionate about building immersive experiences an
 
 ## Let's Connect! 🌐
 - LinkedIn: [Yamil Chamo](https://www.linkedin.com/in/yamcham0/)
-- Twitter: [@YourTwitterHandle](link-to-your-twitter)
-- Email: [your.email@example.com](mailto:your.email@example.com)
+- Twitter: [YamCham0](https://twitter.com/YamCham0)
 
 Thank you for stopping by my profile. Let's create something amazing together!
 
