@@ -1,6 +1,6 @@
 # Hello World, I'm Yamil Chamo! 👋
 
-I'm a Unity Junior Programmer passionate about building immersive experiences and exploring the vast possibilities within game development. I’m currently honing my skills in C# and the Unity Engine, and I’m always ready to collaborate on innovative projects.
+I'm a Unity XR Developer passionate about building immersive experiences and exploring the vast possibilities within game development. I’m currently honing my skills in C# and the Unity Engine, and I’m always ready to collaborate on innovative projects.
 
 ## About Me 🎮
 - 🎓 Earned a Full-Stack Developer certification, demonstrating comprehensive mastery in both front-end and back-end technologies.
