@@ -1,0 +1,97 @@
+name: Refresh Sprityful activity
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+  schedule:
+    - cron: "17 14 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update the latest shipment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const profilePath = "README.md";
+
+            const { data: commits } = await github.rest.repos.listCommits({
+              owner,
+              repo: "Sprityful",
+              per_page: 1,
+            });
+
+            const latest = commits[0];
+            if (!latest) {
+              core.setFailed("Sprityful has no commits to display.");
+              return;
+            }
+
+            const subject = (latest.commit.message || "Latest commit")
+              .split(/\r?\n/, 1)[0]
+              .replace(/[\[\]`*_]/g, "")
+              .replace(/\|/g, "—")
+              .trim();
+
+            const shippedOn = new Intl.DateTimeFormat("en-US", {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+              timeZone: "UTC",
+            }).format(new Date(latest.commit.committer.date));
+
+            const latestShip =
+              "**Latest ship:** [" + subject + "](" + latest.html_url + ") · " +
+              shippedOn + " · [Sprityful](https://sprityful.vercel.app/)";
+
+            const start = "<!-- LATEST_SHIP:START -->";
+            const end = "<!-- LATEST_SHIP:END -->";
+
+            const current = await github.rest.repos.getContent({
+              owner,
+              repo,
+              path: profilePath,
+            });
+
+            if (Array.isArray(current.data) || !("content" in current.data)) {
+              core.setFailed("Could not read the profile README.");
+              return;
+            }
+
+            const readme = Buffer.from(current.data.content, "base64").toString("utf8");
+            const section = new RegExp(start + "[\\s\\S]*?" + end);
+
+            if (!section.test(readme)) {
+              core.setFailed("The LATEST_SHIP markers are missing from README.md.");
+              return;
+            }
+
+            const updated = readme.replace(
+              section,
+              start + "\n" + latestShip + "\n" + end,
+            );
+
+            if (updated === readme) {
+              core.info("Profile activity is already current.");
+              return;
+            }
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path: profilePath,
+              message: "chore: refresh Sprityful activity",
+              content: Buffer.from(updated).toString("base64"),
+              sha: current.data.sha,
+            });
