@@ -24,11 +24,13 @@ Turn a character brief into an export-ready pixel-art animation sheet, then down
 
 `TypeScript` · `Next.js` · `React` · `Cloudflare Workers AI` · `Supabase` · `Vercel`
 
-### [Prog Theo](https://github.com/YamCham0/Prog-Theo-repo) — Unity game project
+### [Que Boquete!](https://play.unity.com/en/games/bdf3d381-f575-449b-b513-8b4783f73c16/que-boquete) — Unity driving game
 
-A Junior Programmer pathway project with a 59-commit development history, built primarily in C# with Unity rendering technologies.
+A three-lane driving game built in Unity. Choose from two cars with distinct strengths, avoid increasingly frequent obstacles, and chase a locally saved high score.
 
-`C#` · `ShaderLab` · `HLSL`
+[Play on Unity Play](https://play.unity.com/en/games/bdf3d381-f575-449b-b513-8b4783f73c16/que-boquete) · [Repository](https://github.com/YamCham0/Prog-Theo-repo)
+
+`C#` · `Unity` · `ShaderLab` · `HLSL`
 
 ### [In The Loop](https://github.com/YamCham0/In-The-Loop) — collaborative learning platform
 
